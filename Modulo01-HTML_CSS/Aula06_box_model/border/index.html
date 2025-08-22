@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model</title>
+</head>
+<body>
+    <title>Border</title>  
+
+    <main>
+
+    </main>
+
+    <div id="box2"></div>
+
+    <div id="box3"></div>
+
+    <style>
+        main {
+            margin: auto;
+            width: 60vw;
+            box-shadow: 1px 1px 10px rgba(0,0,0,0);
+        }
+
+        #box2 {
+            border: 1px solid black;
+            height: 50px;
+            text-align: center;
+            border-radius: 15px;
+        }
+
+        #box3 {
+            height: 250px;
+            background-image: linear-gradient(to top, blue, orange, yellow, green, red);
+            border-top: 1px solid black;
+            border-bottom: 1px dashed green;
+            border-right: 1px dotted blue;
+            border-left: 1ps solid red;
+        }
+
+
+    </style>
+</body>
+</html>
