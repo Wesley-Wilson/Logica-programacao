@@ -1,0 +1,61 @@
+@import url(cores.css);
+
+body {
+    background-color: var(--cor-fundo-body);
+}
+
+.receita-detalhe {
+    min-width: 40vw;
+    max-width: 30vw;
+    height: 600px;
+    margin: 30px auto;
+    padding: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.114);
+    border-radius: 15px;
+    box-shadow:  0px 4px 12px rgba(0, 0, 0, 0.154);
+    background-color: var(--cor-main);
+}
+
+.receita-detalhe h2 {
+    text-align: center;
+    font-size: 1.8em;
+    margin-bottom: 20px;
+}
+
+.receita-detalhe h3 {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    color: var(--cor-titulo-h3);
+}
+
+.receita-detalhe ul, .receita-detalhe ol{
+    margin-left: 30px;
+    line-height: 1.6;
+}
+
+.img-receita {
+    cursor: pointer;
+    display: block;
+    width: 50%;
+    margin: 10px auto;
+    border-radius: 12px;
+    height: auto; /* sabe a largura da img e coloca a melhor altura dela*/
+}
+
+/*main section img {
+    width: 100%;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+main sectiom img:hover{
+    top:  -2px;
+    box-shadow: 0 2px 2px #210c0c;
+    transition: 0.5s ease;
+}*/
+
+footer {
+    position: relative;
+    width: 100%;
+}
+

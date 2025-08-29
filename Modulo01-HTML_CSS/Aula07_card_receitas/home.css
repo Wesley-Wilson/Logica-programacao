@@ -3,7 +3,6 @@
 /* Main cards */
 body {
     background-color: var(--cor-fundo-body);
-    text-align: center;
 }
 main {
     margin-top: 20px;
