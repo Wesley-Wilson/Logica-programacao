@@ -18,7 +18,7 @@ main h2 {
     width: 250px;
     text-align: center;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.103);
-    display: inline-block;
+    /*display: inline-block;*/
     background-color: var(--cor-main);
     margin: 10px;
 }
@@ -58,4 +58,9 @@ main h2 {
     transform: translate(2px, -2px);
     background-color: var(--cor-cabecalho-final);
     transition: 0.5s ease;
+}
+
+.Receitas-container {
+    display: flex;
+    justify-content: center;
 }

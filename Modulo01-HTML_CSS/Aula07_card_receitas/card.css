@@ -12,6 +12,7 @@ header {
     color: var(--cor-letras-link);
     text-align: center;
     padding: 15px;
+
 }
 
 header > h1{
