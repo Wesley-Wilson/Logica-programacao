@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Poppins, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    padding: 20px;
+}
+
+table {
+    margin: auto;
+    width: 60vw;
+    /* Unifica as bordas */
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1.8px solid #000;
+    text-align: center;
+    padding: 5px 5px;
+}
+
+.logo-time {
+    height: 30px;
+    border-right: 0px solid #fff;
+}
+/* Caso queira remover as barras direita e esquerda
+coloque no td img e td nome time */
+/* .td-logo {
+    border-right: none;
+}
+
+.td-clube {
+    border-left: none;
+} */
+
+th {
+    background-color: rgba(88, 132, 21, 0.671);
+    /* background-color: #a4ac86; */
+}
+
+
+
+
