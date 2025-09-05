@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- link css -->
+    <link rel="stylesheet" href="tela-casdatro.css">
+    <!-- font poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+    <title>Cadastro</title>
+</head>
+<body>
+    <main>
+        <h2>Formulário de Cadastro</h2>
+
+        <form action="">
+            <label for="nome">Nome:</label>
+            <input type="text" name="nome" id="nome" required>
+
+            <label for="sobrenome">Sobrenome:</label>
+            <input type="text" name="sobrenome" id="sobrenome" required>
+
+            <label for="data-nascimento">Data de Nascimento: </label>
+            <input type="date" name="data-nascimento" id="data-nascimento" required> 
+
+            <label for="cpf">CPF:</label>
+            <input type="number" name="cpf" id="cpf" required>
+
+            <label for="email" >E-mail:</label>
+            <input placeholder="djfidj" type="email" name="email" id="email" required>
+
+            <label for="senha">Senha:</label>
+            <input type="password" name="senha" id="senha" required>
+
+            <label for="cep">CEP:</label>
+            <input type="number" name="cep" id="cep" required>
+
+            <label for="rua">Rua:</label>
+            <input type="text" name="rua" id="rua" readonly>
+
+            <label for="numero">Número:</label>
+            <input type="text" name="numero" id="numero" required>
+
+            <label for="cidade">Cidade:</label>
+            <input type="text" name="cidade" id="cidade">
+
+            <label for="estado">Estado:</label>
+            <select name="estado" id="estado">
+                <option value="sp">São Paulo</option>
+                <option value="sp">Rio de Janeiro</option>
+                <option value="sp">Minas Gerais</option>
+                <option value="sp">Espírito Santo</option>
+            </select>
+
+            <div class="button">
+                <button type="submit">Enviar</button>
+                <button type="reset">Limpar</button>
+            </div>
+
+        </form>
+
+    </main>
+    
+</body>
+</html>
