@@ -68,6 +68,16 @@
     <button onclick="mostrar()">Mostrar</button>
   </div>
 
-  <script src="dom.js"></script>
+  <script>
+    function esconder() {
+      let texto = document.getElementById("texto")
+      texto.style.display = 'none';
+    }
+
+    function mostrar() {
+      texto.style.display = 'flex';
+      texto.style.color = 'black'
+    }
+  </script>
 </body>
 </html>
