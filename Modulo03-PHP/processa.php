@@ -24,7 +24,25 @@
             echo "<p><strong>O seu sobrenome é </sobrenome> $sobrenome </p>";
             echo "<p><strong>O seu email é </sobrenome> $email </p>";
             echo "<p><strong>A sua senha é </sobrenome> $senha </p>";
+
+            //Percorrer dois Arrays Associativos
+            $notasArividades = [
+                "Caio" => 10,
+                "Marcos" => 8,
+                "Diego" => 10
+            ];
+
+            foreach ($notasAtividades as $nome => $nota) {
+                $prova = $notasProvas[$nome];
+
+                echo $nome . " nota " . $nota . "<br>";
+                echo $nome . " nota " . $prova . "<br>";
+            }
+
+
             ?>
     </main>
 </body>
 </html>
+
+

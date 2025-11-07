@@ -65,7 +65,7 @@
                                 "cc" => "CIÊNCIAS DA COMPUTAÇÃO"
                             ]
 
-                            $nomwCurso = $cursos[$curso];
+                            $nomeCurso = $cursos[$curso];
 
                             echo "<h2 style='text-align:center'>$nomeCurso</h2>";
 
